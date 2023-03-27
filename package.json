@@ -1,0 +1,27 @@
+{
+  "name": "pretty-log",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/pretty-log.cjs",
+  "module": "./dist/pretty-log.js",
+  "exports": {
+    ".": {
+      "import": "./dist/pretty-log.js",
+      "require": "./dist/pretty-log.cjs"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.10",
+    "path": "^0.12.7",
+    "typescript": "^4.9.3",
+    "vite": "^4.2.0"
+  }
+}
