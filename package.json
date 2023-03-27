@@ -1,16 +1,16 @@
 {
-  "name": "pretty-log",
+  "name": "just-simple-log",
   "version": "1.0.0",
   "type": "module",
   "files": [
     "dist"
   ],
-  "main": "./dist/pretty-log.cjs",
-  "module": "./dist/pretty-log.js",
+  "main": "./dist/just-simple-log.cjs",
+  "module": "./dist/just-simple-log.js",
   "exports": {
     ".": {
-      "import": "./dist/pretty-log.js",
-      "require": "./dist/pretty-log.cjs"
+      "import": "./dist/just-simple-log.js",
+      "require": "./dist/just-simple-log.cjs"
     }
   },
   "scripts": {

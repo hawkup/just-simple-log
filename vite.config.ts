@@ -5,11 +5,11 @@ import { defineConfig } from 'vite'
 export default defineConfig({
   build: {
     minify: 'esbuild',
-    emptyOutDir: false,
+    emptyOutDir: true,
     lib: {
       formats: ['es', 'cjs', 'iife'],
       entry: resolve(__dirname, 'src/index.ts'),
-      name: 'PrettyLog'
+      name: 'JustSimpleLog'
     }
   },
 })
