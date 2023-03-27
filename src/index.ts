@@ -1,14 +1,14 @@
 export default {
-  log<T>(args: T) {
+  log(args: unknown) {
     console.log(JSON.stringify(args, null, 2))
   },
-  error<T>(args: T) {
+  error(args: unknown) {
     console.error(JSON.stringify(args, null, 2))
   },
-  warn<T>(args: T) {
+  warn(args: unknown) {
     console.warn(JSON.stringify(args, null, 2))
   },
-  info<T>(args: T) {
+  info(args: unknown) {
     console.info(JSON.stringify(args, null, 2))
   }
 }
